@@ -1,4 +1,6 @@
 using System;
+using static System.Console;
+using static Baebae.Apple.ConsoleApp.SevenNewFeature;
 
 namespace Baebae.Apple.ConsoleApp
 {
@@ -6,13 +8,13 @@ namespace Baebae.Apple.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
 
-            var result = SevenNewFeature.IsFirstSummerMonday(DateTime.Now);
+            var result = IsFirstSummerMonday(DateTime.Now);
 
-            Console.WriteLine(result);
+            WriteLine(result);
 
-            Console.ReadKey();
+            ReadKey();
         }
     }
 }
