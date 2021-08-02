@@ -22,12 +22,22 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MemberCenter", "Baebae.Apple.Microservice.MemberCenter\Baebae.Apple.Microservice.MemberCenter.csproj", "{E261F937-9A95-4D8D-ABB8-28CB065ED823}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.Ordering", "Baebae.Apple.Microservice.Ordering\Baebae.Apple.Microservice.Ordering.csproj", "{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.HotelBase", "Baebae.Apple.Microservice.HotelBase\Baebae.Apple.Microservice.HotelBase.csproj", "{64047B28-BA13-4121-9723-972C31E72A56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MyHotel", "Baebae.Apple.Microservice.MyHotel\Baebae.Apple.Microservice.MyHotel.csproj", "{5832B979-C517-46A3-950D-6ECC71ED1335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MemberCenter", "Baebae.Apple.Microservice.MemberCenter\Baebae.Apple.Microservice.MemberCenter.csproj", "{E261F937-9A95-4D8D-ABB8-28CB065ED823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.Ordering", "Baebae.Apple.Microservice.Ordering\Baebae.Apple.Microservice.Ordering.csproj", "{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MyHotel", "Baebae.Apple.Microservice.MyHotel\Baebae.Apple.Microservice.MyHotel.csproj", "{5832B979-C517-46A3-950D-6ECC71ED1335}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excel", "Excel", "{5FE85AD5-AD5F-4998-BA2F-7A6E7D7329B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.ExcelTest", "Baebae.Apple.ExcelTest\Baebae.Apple.ExcelTest.csproj", "{07B748F0-D195-490A-82D4-45AA6F79C19B}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net6", "Net6", "{DE3BCF50-33A0-4D4E-A557-B692FD30F3EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{6638E72A-0D50-44B8-BEEA-E2496862BEE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.NPOI", "Baebae.Apple.NPOI\Baebae.Apple.NPOI.csproj", "{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +77,14 @@ Global
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B748F0-D195-490A-82D4-45AA6F79C19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B748F0-D195-490A-82D4-45AA6F79C19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B748F0-D195-490A-82D4-45AA6F79C19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B748F0-D195-490A-82D4-45AA6F79C19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -84,6 +102,8 @@ Global
 		{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D} = {91F89ACE-28CB-417D-A8AE-AEB392818201}
 		{5832B979-C517-46A3-950D-6ECC71ED1335} = {EBA3CFA1-698A-461D-B71C-0922A2AAA1E0}
 		{6638E72A-0D50-44B8-BEEA-E2496862BEE2} = {DE3BCF50-33A0-4D4E-A557-B692FD30F3EA}
+		{07B748F0-D195-490A-82D4-45AA6F79C19B} = {5FE85AD5-AD5F-4998-BA2F-7A6E7D7329B0}
+		{9E8E1F1E-1478-4CFD-9F15-E899A98CC70F} = {5FE85AD5-AD5F-4998-BA2F-7A6E7D7329B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE637104-221F-4085-AC81-8942142E38CA}
