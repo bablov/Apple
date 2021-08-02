@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31229.75
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Web", "Baebae.Apple.Web\Baebae.Apple.Web.csproj", "{ED6884A5-CB59-4916-97A2-21837137F540}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.ConsoleApp", "Baebae.Apple.ConsoleApp\Baebae.Apple.ConsoleApp.csproj", "{C5FE6EF1-25A7-4E6E-9BF5-C41BC0F3D449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebaego.Practice", "Baebaego.Practice\Baebaego.Practice.csproj", "{6F941258-7FF4-4745-97AE-188A9FBF9690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebaego.Practice", "Baebaego.Practice\Baebaego.Practice.csproj", "{6F941258-7FF4-4745-97AE-188A9FBF9690}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{EBA3CFA1-698A-461D-B71C-0922A2AAA1E0}"
 EndProject
@@ -15,15 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gws", "gws", "{3A4F5B8C-557
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{91F89ACE-28CB-417D-A8AE-AEB392818201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.API.Geteway", "Baebae.Apple.API.Geteway\Baebae.Apple.API.Geteway.csproj", "{8C02551D-331D-449E-A5A6-173AA621AA6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.API.Geteway", "Baebae.Apple.API.Geteway\Baebae.Apple.API.Geteway.csproj", "{8C02551D-331D-449E-A5A6-173AA621AA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.Microservice.HotelBase", "Baebae.Apple.Microservice.HotelBase\Baebae.Apple.Microservice.HotelBase.csproj", "{64047B28-BA13-4121-9723-972C31E72A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.HotelBase", "Baebae.Apple.Microservice.HotelBase\Baebae.Apple.Microservice.HotelBase.csproj", "{64047B28-BA13-4121-9723-972C31E72A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.Microservice.MemberCenter", "Baebae.Apple.Microservice.MemberCenter\Baebae.Apple.Microservice.MemberCenter.csproj", "{E261F937-9A95-4D8D-ABB8-28CB065ED823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MemberCenter", "Baebae.Apple.Microservice.MemberCenter\Baebae.Apple.Microservice.MemberCenter.csproj", "{E261F937-9A95-4D8D-ABB8-28CB065ED823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.Microservice.Ordering", "Baebae.Apple.Microservice.Ordering\Baebae.Apple.Microservice.Ordering.csproj", "{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.Ordering", "Baebae.Apple.Microservice.Ordering\Baebae.Apple.Microservice.Ordering.csproj", "{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baebae.Apple.Microservice.MyHotel", "Baebae.Apple.Microservice.MyHotel\Baebae.Apple.Microservice.MyHotel.csproj", "{5832B979-C517-46A3-950D-6ECC71ED1335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baebae.Apple.Microservice.MyHotel", "Baebae.Apple.Microservice.MyHotel\Baebae.Apple.Microservice.MyHotel.csproj", "{5832B979-C517-46A3-950D-6ECC71ED1335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net6", "Net6", "{DE3BCF50-33A0-4D4E-A557-B692FD30F3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{6638E72A-0D50-44B8-BEEA-E2496862BEE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,10 @@ Global
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5832B979-C517-46A3-950D-6ECC71ED1335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6638E72A-0D50-44B8-BEEA-E2496862BEE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +83,7 @@ Global
 		{E261F937-9A95-4D8D-ABB8-28CB065ED823} = {91F89ACE-28CB-417D-A8AE-AEB392818201}
 		{2D7ED1CB-45C7-4182-AF97-18CBB7D04A1D} = {91F89ACE-28CB-417D-A8AE-AEB392818201}
 		{5832B979-C517-46A3-950D-6ECC71ED1335} = {EBA3CFA1-698A-461D-B71C-0922A2AAA1E0}
+		{6638E72A-0D50-44B8-BEEA-E2496862BEE2} = {DE3BCF50-33A0-4D4E-A557-B692FD30F3EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE637104-221F-4085-AC81-8942142E38CA}
